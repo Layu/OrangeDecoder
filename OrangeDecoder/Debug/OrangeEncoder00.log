@@ -1,0 +1,28 @@
+﻿2014/12/28 5:59:29 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "c:\Users\Tanioka\documents\visual studio 2010\Projects\OrangeEncoder00\OrangeEncoder00\OrangeEncoder00.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Debug\OrangeEncoder00.unsuccessfulbuild" のタッチ タスクを実行しています。
+       GenerateTargetFrameworkMonikerAttribute:
+       すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略します。
+       ClCompile:
+         すべての出力が最新のものです。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OrangeEncoder00.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt OrangeEncoder00.cpp QRDetector.cpp /clr:nostdlib 
+         OrangeEncoder00.cpp
+     1>C:\opencv\build\include\opencv2/core/types_c.h(308): error C3862: 'cvRound': /clr:pure または /clr:safe を伴うアンマネージ関数をコンパイルできません
+                 インラインのネイティブ アセンブリはマネージ コードでサポートされていません
+     1>C:\opencv\build\include\opencv2/core/types_c.h(308): error C3645: 'cvRound' : __clrcall は、ネイティブ コードにコンパイルされた関数では使用できません
+     1>c:\users\tanioka\documents\visual studio 2010\projects\orangeencoder00\orangeencoder00\QRDetector.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+         QRDetector.cpp
+     1>QRDetector.cpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\users\tanioka\documents\visual studio 2010\projects\orangeencoder00\orangeencoder00\QRDetector.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\opencv\build\include\opencv2/core/types_c.h(308): error C3862: 'cvRound': /clr:pure または /clr:safe を伴うアンマネージ関数をコンパイルできません
+                 インラインのネイティブ アセンブリはマネージ コードでサポートされていません
+     1>C:\opencv\build\include\opencv2/core/types_c.h(308): error C3645: 'cvRound' : __clrcall は、ネイティブ コードにコンパイルされた関数では使用できません
+     1>C:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+         コードを生成中...
+     1>プロジェクト "c:\Users\Tanioka\documents\visual studio 2010\Projects\OrangeEncoder00\OrangeEncoder00\OrangeEncoder00.vcxproj" (build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.15
